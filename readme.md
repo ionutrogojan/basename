@@ -13,8 +13,8 @@ Cross-platform, static linking with no compile flags required.
 #define EXIT_FAILURE 1
 
 int main(void) {
-	char* path = "/home/user/Pictures/Screenshots/image.png";
-	char* name = basename(path);
+    char* path = "/home/user/Pictures/Screenshots/image.png";
+    char* name = basename(path);
     if (name == NULL) {
         return EXIT_FAILURE;
     }
